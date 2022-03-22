@@ -26,7 +26,7 @@ const int MaxSpeed = 100;
 //To check for a blue light
 void BlueColorDetect()
 {
-  // Setting red filtered photodiodes to be read
+  // Setting blue filtered photodiodes to be read
   digitalWrite(S2, LOW);
   digitalWrite(S3, HIGH);
   // Reading the output frequency
